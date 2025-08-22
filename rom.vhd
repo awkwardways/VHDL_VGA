@@ -7,7 +7,7 @@ entity ROM is
 generic(
   ADDRESS_BUS_WIDTH : natural := 8;
   DATA_BUS_WIDTH : natural := 8;
-  ROM_IMAGE : string := "C:\Users\Franco\Documents\Codigo\FPGA\TANGPRIMER20K_ReadOnlyMemory\winOutput.txt"
+  ROM_IMAGE : string := ""
 );
 port(
   address_bus : in std_logic_vector(ADDRESS_BUS_WIDTH - 1 downto 0);
