@@ -1,5 +1,5 @@
-local colored_img = io.open("..\\BMPs\\awawita.bmp", "rb")
-local rom_img = io.open("..\\images\\rom.mi", "w")
+local colored_img = io.open("..\\BMPs\\toro_is_happy.bmp", "rb")
+local rom_img = io.open("..\\images\\toro_is_happy.mi", "w")
 
 if not colored_img or not rom_img then print("Could not open files") return end
 
