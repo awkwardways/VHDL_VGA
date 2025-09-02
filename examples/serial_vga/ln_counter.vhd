@@ -20,7 +20,7 @@ end entity ln_counter;
 architecture behavioural of ln_counter is
   signal count : std_logic_vector(LN_COUNT_LENGTH - 1 downto 0) := (others => '0'); 
 begin
-  
+
   process(px_count, clk_in)
   begin
     if rising_edge(clk_in) and unsigned(px_count) = PX_RESTART_COUNT - 1 then

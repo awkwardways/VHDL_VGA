@@ -28,8 +28,17 @@ The images folder contains a few .mi files for rom/ram initialization.
 The BMPs folder contains a bunch of 16 bit bmp images. These were exported using GIMP.
 
 ## Examples at work
+## rom_vga
 <img src="bit_crushed_toro.jpeg" align="center" style="margin-right: 10px;">
 
 Iconic videogame creature, Toro, brutally resized to a 160x120 resolution and bit crushed to a 16-bit color format.
+
+<div style="clear: both;"></div>
+
+## serial_vga
+
+<img src="serial_output.jpeg" align="center" style="margin-right: 10px;">
+
+Video output of serial information sent through my laptop to the fpga using an Arduino UNO as a usb-serial converter.
 
 <div style="clear: both;"></div>
